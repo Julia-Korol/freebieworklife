@@ -46,29 +46,6 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Defer to max-width */
-img[width] {
-  width: auto;
-}
-
-/* Preserve aspect ratio */
-img[width][height] {
-  height: auto;
-}
-
-/* Let SVG scale without boundaries */
-img[src$=".svg"] {
-  width: 100%;
-  height: auto;
-  max-width: none;
-}
-
 img:not([alt]) {
   outline: 2px solid red;
 }
@@ -135,4 +112,126 @@ button {
   }
 }
 
+/* Header styles */
 
+.header {
+  padding: 18px 0;
+  background-color: #fff;
+}
+
+.header__container {
+  max-width: 1206px;
+  margin: 0 auto;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__start,
+.header__end {
+  display: flex;
+  align-items: center;
+}
+
+.header__start {
+  margin-right: 16px;
+}
+
+.header__logo {
+  width: 26px;
+  height: 26px;
+  background-color: #5E81FE;
+  border-radius: 50%;
+  margin-right: 73px;
+}
+
+.header__socials {
+  margin-right: 44px;
+}
+
+/* Navigation styles */
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 42px;
+}
+
+.nav__link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-decoration: none;
+  color: #697CA6;
+}
+
+.nav__link:hover {
+  color: #5E81FE;
+}
+
+.nav__link:active {
+  color: #5E81FE;
+}
+
+.nav__link:focus {
+  outline-color: #3A79FF;
+}
+
+/* Socials styles */
+
+.socials {
+  display: flex;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 36px;
+}
+
+.socials__link:focus {
+    outline-color: #3A79FF;
+}
+
+.socials__icon {
+  fill: #B6BAC7;
+}
+
+.socials__icon:hover {
+  fill: #6188FF;
+}
+
+/* Button styles */
+
+.button {
+  background-color: #D2E1FF;
+  max-width: 200px;
+  min-width: 90px;
+  border-radius: 2px;
+  border: none;
+  padding: 13px 15px;
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #3A79FF;
+}
+
+.button:hover {
+ background-color: #BFD4FF;
+}
+
+.button:active {
+  background-color: #BFD4FF;
+  border: #3A79FF;
+}
+
+.button:focus {
+  outline-color: #3A79FF;
+}
