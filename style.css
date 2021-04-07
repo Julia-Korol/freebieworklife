@@ -253,12 +253,6 @@ button {
        (min-resolution: 2dppx) {
         .hero__container {
           background-image: url(/images/hero/hero@2x.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          min-height: 570px;
-          min-width: 1440px;
-          padding-top: 120px;
         }
        }
 
