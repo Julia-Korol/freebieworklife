@@ -183,7 +183,7 @@ button {
   fill: #B6BAC7;
 }
 
-.socials__icon:hover {
+.socials__link:hover .socials__icon {
   fill: #6188FF;
 }
 
