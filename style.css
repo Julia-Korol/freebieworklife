@@ -266,3 +266,34 @@ button {
   max-width: 502px;
   color: #8D96BD;
 }
+
+/* Customers styles */
+
+.customers {
+  padding: 40px 0;
+}
+
+/* Companies styles */
+
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.companies__item {
+  margin: 16px 24px;
+}
+
+.customers__link {
+  display: block;
+}
+
+.companies__icon {
+  fill: #D6DAE5;
+}
+
+.customers__link:hover .companies__icon {
+  fill: #6188FF;
+}
