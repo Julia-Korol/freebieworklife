@@ -14,6 +14,11 @@ ul, ol {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Remove default margin */
 
 body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
@@ -296,4 +301,97 @@ button {
 
 .customers__link:hover .companies__icon {
   fill: #6188FF;
+}
+
+/* About styles */
+
+.about {
+  background-color: #F5F8FF;
+}
+
+.about__container {
+  display: flex;
+  padding: 170px 0;
+  justify-content: space-between;
+}
+
+.about__info {
+  padding-top: 80px;
+  width: 50%;
+  max-width: 413px;
+}
+
+.about__img {
+  max-width: 653px;
+}
+
+.about__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3D4F9F;
+}
+
+.about__heading {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #3D4F9F;
+  margin-bottom: 27px;
+  margin-top: 14px;
+}
+
+.fw-500 {
+  font-weight: 600;
+}
+
+.about__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #8D96BD;
+  margin-bottom: 47px;
+}
+
+.about__buttons {
+  display: flex;
+}
+
+.about__video {
+  background-color: #4C85FF;
+  color: #fff;
+}
+
+.about__video:hover {
+  background-color: #2d6efc;
+  color: #fff;
+}
+
+.about__video-link {
+  text-decoration: none;
+}
+
+.about__icon {
+  margin-left: 6px;
+}
+
+.about__features {
+  background: none;
+  border: 1px solid #D1D1E4;
+  color: #ADB4D2;
+}
+
+.about__features:hover {
+  background: #f0f0f8;
+  border: 1px solid #9595e0;
+  color: #9595e0;
+}
+
+.about__features-link {
+  text-decoration: none;
 }
