@@ -336,6 +336,7 @@ button {
 }
 
 .about__title {
+  display: block;
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
   font-weight: 500;
@@ -343,6 +344,7 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #3D4F9F;
+  margin-bottom: 14px;
 }
 
 .about__heading {
@@ -352,10 +354,9 @@ button {
   line-height: 45px;
   color: #3D4F9F;
   margin-bottom: 27px;
-  margin-top: 14px;
 }
 
-.fw-500 {
+.fw-600 {
   font-weight: 600;
 }
 
@@ -375,15 +376,12 @@ button {
 .about__video {
   background-color: #4C85FF;
   color: #fff;
+  text-decoration: none;
 }
 
 .about__video:hover {
   background-color: #2d6efc;
   color: #fff;
-}
-
-.about__video-link {
-  text-decoration: none;
 }
 
 .about__icon {
@@ -394,6 +392,7 @@ button {
   background: none;
   border: 1px solid #D1D1E4;
   color: #ADB4D2;
+  text-decoration: none;
 }
 
 .about__features:hover {
