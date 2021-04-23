@@ -317,11 +317,11 @@ button {
 
 .about {
   background-color: #F5F8FF;
+  padding: 170px 0;
 }
 
 .about__container {
   display: flex;
-  padding: 170px 0;
   justify-content: space-between;
 }
 
@@ -338,7 +338,7 @@ button {
 .about__title {
   display: block;
   font-family: 'Roboto', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 12px;
   letter-spacing: 0.1em;
@@ -386,6 +386,7 @@ button {
 
 .about__icon {
   margin-left: 6px;
+  display: inline;
 }
 
 .about__features {
@@ -419,21 +420,21 @@ button {
 
 .info__title {
   font-family: 'Roboto', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   display: block;
   text-align: center;
   text-transform: uppercase;
   color: #3D4F9F;
+  margin-bottom: 20px;
 }
 
 .info__heading {
   font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   text-align: center;
   color: #3D4F9F;
-  margin-top: 20px;
   margin-bottom: 92px;
 }
 
@@ -469,7 +470,7 @@ button {
 
 .info__item-name {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   font-weight: 700;
   color: #4074F8;
@@ -479,7 +480,7 @@ button {
 
 .info__text {
   font-family: 'Quicksand', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 24px;
   color: #ADB3CB;
@@ -492,10 +493,6 @@ button {
   padding-bottom: 170px;
 }
 
-.info__more {
-  margin-right: 48px;
-}
-
 .info__buttons-text {
   display: inline;
   position: relative;
@@ -504,6 +501,7 @@ button {
   color: #ADB3CB;
   text-transform: uppercase;
   margin-right: 48px;
+  margin-left: 48px;
 }
 
 .info__buttons-text::after {
