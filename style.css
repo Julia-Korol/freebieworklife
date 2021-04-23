@@ -406,6 +406,58 @@ button {
   text-decoration: none;
 }
 
+/* Numbers styles */
+
+.numbers__container {
+  display: flex;
+}
+
+.numbers__start {
+  background: linear-gradient(#6888FF, #5E80FF);
+  flex-basis: 50%;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  text-align: right;
+  padding-right: 90px;
+  color: #fff;
+}
+
+.numbers__text--start {
+  margin-left: auto;
+}
+
+.numbers__end {
+  background: linear-gradient(#E9EFFF, #E0E9FF);
+  flex-basis: 50%;
+  padding-top: 66px;
+  padding-bottom: 66px;
+  padding-left: 90px;
+  color: #5E80FF;
+}
+
+.numbers__icon {
+  margin-bottom: 24px;
+}
+
+.numbers__count {
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 83px;
+  letter-spacing: 0.03em;
+  margin-bottom: 24px;
+}
+
+.numbers__text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  max-width: 260px;
+}
+
 /* Info styles */
 
 .info {
