@@ -352,15 +352,6 @@ button {
   max-width: 653px;
 }
 
-.about__heading {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 45px;
-  color: #3D4F9F;
-  margin-bottom: 27px;
-}
-
 .fw-600 {
   font-weight: 600;
 }
@@ -482,6 +473,13 @@ button {
   text-align: center;
   color: #3D4F9F;
   margin-bottom: 92px;
+}
+
+.h2--start {
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 27px;
+  text-align: left;
 }
 
 .info__list {
@@ -654,8 +652,8 @@ button {
 }
 
 .pagination__item {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -668,8 +666,8 @@ button {
 
 .pagination__item::after {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background-color: #D1D6E3;
   position: absolute;
@@ -688,4 +686,83 @@ button {
 
 .pagination__item--active:hover::after {
   background-color: #174eda;
+}
+
+/* Quotes styles */
+
+.quotes {
+  padding: 146px 0;
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.quotes__container {
+  display: flex;
+}
+
+.quotes__start {
+  margin-left: 110px;
+  margin-right: 132px;
+  max-width: 333px;
+}
+
+.quotes__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #A4ABC8;
+}
+
+.quotes__end {
+  position: absolute;
+  top: 24%;
+  right: -22%;
+}
+
+.quotes__cards {
+  display: flex;
+  margin-bottom: 78px;
+}
+
+.quotes__card {
+  max-width: 423px;
+  padding: 41px 69px;
+  position: relative;
+  box-shadow: 0px 5px 50px #F3F5FA;
+  margin-right: 64px;
+  background-color: #dfe5f6;
+  opacity: 0.45;
+  color: #a8b0d1;
+}
+
+.quotes__card--active {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.quotes__card::after {
+  content: '';
+  width: 62px;
+  height: 63px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('/images/quotes/1.jpg');
+}
+
+.quotes__card-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #676F95;
+}
+
+.quotes__pagination {
+  justify-content: start;
+  margin-left: 12%;
 }
