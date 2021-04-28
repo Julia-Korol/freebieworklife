@@ -365,41 +365,55 @@ button {
   margin-bottom: 47px;
 }
 
-.about__buttons {
+/* Tuple styles */
+
+.tuple {
   display: flex;
 }
 
-.about__video {
+.tuple__start {
   background-color: #4C85FF;
   color: #fff;
   text-decoration: none;
 }
 
-.about__video:hover {
+.tuple__start--second {
+  background-color: #fff;
+  color: #565F82;
+  font-weight: 600;
+}
+
+.tuple__start:hover {
   background-color: #2d6efc;
   color: #fff;
 }
 
-.about__icon {
+.tuple__start--second:hover {
+  background-color: #e3f0ff;
+  color: #565F82;
+}
+
+.tuple__icon {
   margin-left: 6px;
   display: inline;
 }
 
-.about__features {
+.tuple__end {
   background: none;
   border: 1px solid #D1D1E4;
   color: #ADB4D2;
   text-decoration: none;
 }
 
-.about__features:hover {
+.tuple__end--second {
+  color: #C7D3FF;
+  border: 1px solid #A0B4FF;
+}
+
+.tuple__end:hover {
   background: #f0f0f8;
   border: 1px solid #9595e0;
   color: #9595e0;
-}
-
-.about__features-link {
-  text-decoration: none;
 }
 
 /* Numbers styles */
@@ -837,4 +851,46 @@ button {
   font-size: 13px;
   max-width: 165px;
   padding: 13px 14px;
+}
+
+/* Pricing styles */
+
+.pricing {
+  text-align: center;
+  background-color: #5E80FF;
+  background-image: url('/images/pricing/clouds.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 92px 0;
+  color: #fff;
+}
+
+.pricing__container {
+  max-width: 710px;
+}
+
+.pricing__title {
+  color: #fff;
+}
+
+.pricing__heading {
+  font-size: 48px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.pricing__heading-bold {
+  font-weight: 700;
+}
+
+.pricing__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.pricing__tuple {
+  justify-content: center;
 }
