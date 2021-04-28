@@ -766,3 +766,75 @@ button {
   justify-content: start;
   margin-left: 12%;
 }
+
+/* Help stules */
+
+.help {
+  padding: 176px 0;
+}
+
+.container__help {
+  max-width: 750px;
+}
+
+.accordion__trigger {
+  max-width: 743px;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #D8E3FE;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #8E96B7;
+  font-size: 15px;
+  padding: 15px 0;
+}
+
+.accordion__icon {
+  stroke: #8E96B7;
+}
+
+.accordion__trigger[aria-expanded="true"] {
+  color: #495274;
+  font-weight: 700;
+}
+
+.accordion__trigger[aria-expanded="true"] .accordion__icon {
+  stroke: #495274;
+  transform: rotate(180deg);
+}
+
+.accordion__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 62px 53px 48px;
+}
+
+.accordion__content[hidden] {
+  display: none;
+}
+
+.accordion__icon {
+  margin-right: 24px;
+}
+
+.accordion__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8E96B7;
+  max-width: 391px;
+}
+
+.accordion__content-button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #7382A3;
+  background-color: #E8ECF4;
+  font-size: 13px;
+  max-width: 165px;
+  padding: 13px 14px;
+}
