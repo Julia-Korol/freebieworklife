@@ -894,3 +894,85 @@ button {
 .pricing__tuple {
   justify-content: center;
 }
+
+/* SignUp styles */
+
+.signUp {
+  padding: 118px 0;
+  background-color: #FCFDFF;
+}
+
+.signUp__container {
+  display: flex;
+  max-width: 898px;
+}
+
+.signUp__start {
+  max-width: 330px;
+  margin-right: 80px;
+  width: 100%;
+}
+
+.signUp__heading {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #3D4F9F;
+  margin-bottom: 18px;
+}
+
+.signUp__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8D96BD;
+  line-height: 27px;
+}
+
+.signUp__form {
+  display: flex;
+  align-items: center;
+  max-width: 489px;
+  width: 100%;
+}
+
+.signUp__input {
+  max-height: 59px;
+  max-width: 279px;
+  width: 100%;
+  height: 100%;
+  margin-right: 14px;
+  padding-left: 23px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  background-color: #EFEFF7;
+  color: #3D4F9F;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.signUp__input:focus {
+  outline-color: #3A79FF;
+}
+
+.signUp__input::placeholder {
+  color: #7A85AD;
+  font-weight: 700;
+}
+
+.signUp__button {
+  max-height: 59px;
+  max-width: 181px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #4D6CE1;
+  color: #fff;
+  font-size: 13px;
+}
+
+.signUp__button:hover {
+  background-color: #284ac5;
+}
