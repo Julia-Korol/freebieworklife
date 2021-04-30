@@ -115,22 +115,22 @@ button {
   background-color: #fff;
 }
 
-.navigation__container {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navigation__start, .navigation__end {
+.header__start, .header__end {
   display: flex;
   align-items: center;
 }
 
-.navigation__start {
+.header__start {
   margin-right: 16px;
 }
 
-.navigation__logo {
+.logo {
   width: 26px;
   height: 26px;
   background-color: #5E81FE;
@@ -138,7 +138,7 @@ button {
   margin-right: 73px;
 }
 
-.navigation__socials {
+.header__socials {
   margin-right: 44px;
 }
 
@@ -975,4 +975,42 @@ button {
 
 .signUp__button:hover {
   background-color: #284ac5;
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: #fff;
+  padding: 100px 0;
+  border-top: 1px solid #D8E3FE;
+}
+
+.footer__container {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__start, .footer__end {
+  display: flex;
+  align-items: center;
+}
+
+.footer__start {
+  margin-right: 16px;
+}
+
+.footer__socials {
+  margin-right: 44px;
+}
+
+.footer__copyrite {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  color: #AEB8D0;
+  margin-left: 254px;
 }
